@@ -34,6 +34,23 @@
     word-wrap: break-word;
 }
 
+/**
+ * Text hyphenation
+ *
+ * Break strings when their length exceeds the width of their container
+ * and hyphenate long words when supported.
+ */
+
+.u-textHyphenate {
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
 /* -------------------------------------------------------------------------- */
 
 /**
