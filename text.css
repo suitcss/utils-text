@@ -38,7 +38,8 @@
  * Text hyphenation
  *
  * Break strings when their length exceeds the width of their container
- * and hyphenate long words when supported.
+ * and hyphenate words at the end of lines using the `hyphens` property.
+ * Browser support for hyphenation: http://caniuse.com/#search=hyphenation
  */
 
 .u-textHyphenate {
