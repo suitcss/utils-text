@@ -76,3 +76,18 @@
   white-space: nowrap !important;
   word-wrap: normal !important; /* 2 */
 }
+
+/**
+ * Enables font kerning in all browsers.
+ * http://blog.typekit.com/2014/02/05/kerning-on-the-web/
+ * 
+ * 1. Safari 6, iOS, Android
+ * 2. Chrome, Firefox, IE
+ * 3. Safari 7 and future browsers
+ */
+
+.u-textKern {
+  text-rendering: optimizeLegibility; /* 1 */
+  font-feature-settings: "kern" 1; /* 2 */
+  font-kerning: normal; /* 3 */
+}
