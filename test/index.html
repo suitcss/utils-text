@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Text [utility] - SUIT</title>
+<title>Text [utility] - SUIT CSS</title>
 <meta name="viewport" content="initial-scale=1, width=device-width">
-<link rel="stylesheet" href="build/build.css">
+<link rel="stylesheet" href="../build/test.css">
 <style>
   html {
     color: black;
@@ -66,6 +66,13 @@
     <div class="dev-Box">
       <a class="u-textInheritColor" href="#non">Should always be black</a>
     </div>
+  </div>
+
+  <h2 class="Test-describe">.u-textKern</h2>
+  <h3 class="Test-it">should enable kerning in supported browsers</h3>
+  <div class="Test-run" style="font-family:arial;font-size:20px">
+    <div>The quick brown fox jumps over the lazy dog (default)</div>
+    <div class="u-textKern">The quick brown fox jumps over the lazy dog (kerning enabled)</div>
   </div>
 
   <h2 class="Test-describe">.u-textNoWrap</h2>

@@ -1,15 +1,15 @@
-# SUIT utilities: text
+# SUIT CSS utilities: text
 
 [![Build Status](https://secure.travis-ci.org/suitcss/utils-text.png?branch=master)](http://travis-ci.org/suitcss/utils-text)
 
 SUIT CSS text utilities.
 
-Read more about [SUIT's design principles](https://github.com/suitcss/suit/).
+Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/).
 
 ## Installation
 
-* [Component(1)](http://component.io/): `component install suitcss/utils-text`
 * [npm](http://npmjs.org/): `npm install suitcss-utils-text`
+* [Component(1)](http://component.io/): `component install suitcss/utils-text`
 * [Bower](http://bower.io/): `bower install suit-utils-text`
 * Download: [zip](https://github.com/suitcss/utils-text/zipball/master)
 
@@ -20,6 +20,7 @@ Read more about [SUIT's design principles](https://github.com/suitcss/suit/).
 * `u-textLeft` - Left-align text.
 * `u-textRight` - Right-align text.
 * `u-textInheritColor` - Inherit the ancestor's text color.
+* `u-textKern` - Enable kerning in supporting browsers.
 * `u-textNoWrap` - Prevent wrapping at whitespace.
 * `u-textTruncate` - Truncate a single line of text, with ellipsis.
 
@@ -47,7 +48,7 @@ To generate the testing build.
 npm run build-test
 ```
 
-Basic visual tests are in `test.html`.
+Basic visual tests are in `test/index.html`.
 
 ## Browser support
 

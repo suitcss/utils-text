@@ -1,11 +1,8 @@
 {
-  "name": "utils-text",
+  "name": "suitcss-utils-text",
   "repo": "suitcss/utils-text",
-  "version": "0.3.0",
-  "styles": ["text.css"],
-  "development": {
-    "suitcss/test": "*"
-  },
+  "version": "0.4.0",
+  "styles": ["lib/text.css"],
   "author": "Nicolas Gallagher",
   "license": "MIT"
 }
