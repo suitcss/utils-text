@@ -25,6 +25,18 @@
 }
 
 /**
+ * Text styling
+ */
+ 
+.u-textUppercase {
+  text-transform: uppercase !important;
+}
+
+.u-textItalic {
+  font-style: italic !important;
+}
+
+/**
  * Inherit the ancestor's text color.
  */
 
