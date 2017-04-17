@@ -21,6 +21,8 @@ Read more about [SUIT CSS's design principles](https://github.com/suitcss/suit/)
 * `u-textKern` - Enable kerning in supporting browsers.
 * `u-textNoWrap` - Prevent wrapping at whitespace.
 * `u-textTruncate` - Truncate a single line of text, with ellipsis.
+* `u-textLowerCase` - Convert text to lower case.
+* `u-textUpperCase` - Convert text to upper case.
 
 ## Usage
 
